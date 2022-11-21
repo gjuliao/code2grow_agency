@@ -9,7 +9,6 @@ header {
   background-color: #f7f7f7;
 }
 
-
 /* Navbar */
 .hamburguer {
   font-size: 0.5em !important;
@@ -116,6 +115,14 @@ header {
   display: flex;
 }
 
+.card_speaker img {
+  max-width: 25%;
+  max-height: 40%;
+  justify-self: center;
+  align-self: center;
+  margin: auto;
+}
+
 .fa-user-gear {
   font-size: 2em;
   align-self: center;
@@ -145,7 +152,7 @@ i .fa-solid .fa-user-gear {
 
 /* About Page */
 
-.main_text_about h2, 
+.main_text_about h2,
 .main_text_about h1 {
   text-align: center;
   color: orange;
@@ -187,7 +194,7 @@ i .fa-solid .fa-user-gear {
 }
 
 .experience p,
-.experience_template_one h2, 
+.experience_template_one h2,
 .experience_template_two h2 {
   text-align: center;
   padding-bottom: 2em;
@@ -206,8 +213,8 @@ i .fa-solid .fa-user-gear {
 }
 
 .partners {
-    background-color: #414245;
-    padding-bottom: 1.5em;
+  background-color: #414245;
+  padding-bottom: 1.5em;
 }
 
 .partners h6 {
@@ -216,16 +223,14 @@ i .fa-solid .fa-user-gear {
 }
 
 .partners_icons {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 1em;
 }
 
-.fa-brands, .fa-solid {
+.fa-brands,
+.fa-solid {
   font-size: 4em;
   margin-right: 0.2em;
 }
-
-
-
