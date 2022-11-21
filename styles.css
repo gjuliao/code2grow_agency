@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@100&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.hamburguer {
+    font-size: 1.5em;
+}
+
+#overlay {
+    display: none;
+}
+
+.nav_ul {
+    list-style-type: none;
+}
+
+.main_heading {
+    margin-top: 3em;;
+}
+
+.main_heading h1 {
+    font-size: 2em;
+}
+
+.main_description {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.main_time {
+    font-weight: 900;
+}
+
+.main_program {
+    background-color: black;
+}
+
+.main_program h3 {
+    color: white;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.card_main_program {
+    display: grid;
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-row: 1fr;
+}
+
+.card_main_program p {
+    color: white;
+    width: 90%;
+    padding: 0 0.8em;
+    font-size: 1em;
+}
+
+.card_main_program h4 {
+    color: #ec5242;
+    text-align: center;
+    margin: auto 0;
+    font-size: 1.5em;
+
+}
+
+.fa-user-astronaut {
+    color: white;
+    font-size: 3em;
+    justify-self: center;
+    align-self: center;
+}
+
+.main_program button {
+    background-color: #ec5242;
+    border-style: none;
+    padding: 1em;
+    color: whitesmoke;
+    margin: 2em 30%;
+    font-size: 1em;
+}
+
+.speakers {
+    margin-bottom: 2em;
+}
+
+.all_speakers {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.speakers h3 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.card_speaker {
+    display: flex;
+}
+
+i .fa-solid .fa-user-gear {
+    width: 30%;
+}
+
+.fa-user-gear {
+    font-size: 2em;
+    align-self: center;
+    margin: auto;
+}
+
+.speaker_details {
+    width: 70%;
+}
+
+.speakers button {
+    padding: 1em;
+    font-size: 1em;
+    border-style: none;
+    width: 100%;
+    margin: auto;
+}
+
+.fa-angle-down {
+    color: orange;
+}
