@@ -31,9 +31,33 @@ nav p {
   color: gray;
 }
 
+.card_main_program p {
+  color: white;
+  width: 90%;
+  padding: 0 0.8em;
+  font-size: 1em;
+}
+
+.speaker_details p {
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.info_logo p {
+  text-align: center;
+  padding: 1em;
+}
+
+.experience p,
+.experience_template_one h2,
+.experience_template_two h2 {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
 nav p:hover {
-    color: darkslategray;
-    font-weight: 700;
+  color: darkslategray;
+  font-weight: 700;
 }
 
 #overlay {
@@ -48,15 +72,15 @@ nav p:hover {
 }
 
 .nav_ul li {
-    padding-bottom: 0.3em;
-    color: gray;
-    font-size: 1.3em;
+  padding-bottom: 0.3em;
+  color: gray;
+  font-size: 1.3em;
 }
 
 .nav_ul li:hover {
-    padding-bottom: 0.3em;
-    color: darkslategray;
-    font-weight: 700;
+  padding-bottom: 0.3em;
+  color: darkslategray;
+  font-weight: 700;
 }
 
 /* Home Page */
@@ -115,13 +139,6 @@ nav p:hover {
   width: 100%;
   grid-template-columns: 1fr 1fr 2fr;
   grid-row: 1fr;
-}
-
-.card_main_program p {
-  color: white;
-  width: 90%;
-  padding: 0 0.8em;
-  font-size: 1em;
 }
 
 .card_main_program h4 {
@@ -201,11 +218,6 @@ i .fa-solid .fa-user-gear {
   margin: 0;
 }
 
-.speaker_details p {
-  margin: 0;
-  font-size: 0.7em;
-}
-
 .speakers button {
   padding: 1em;
   font-size: 1em;
@@ -246,11 +258,6 @@ i .fa-solid .fa-user-gear {
   font-weight: bold;
 }
 
-.info_logo p {
-  text-align: center;
-  padding: 1em;
-}
-
 .info_logo img {
   border: 1px solid black;
   width: 80%;
@@ -260,13 +267,6 @@ i .fa-solid .fa-user-gear {
 .experience h4 {
   margin-top: 2.5em;
   text-align: center;
-}
-
-.experience p,
-.experience_template_one h2,
-.experience_template_two h2 {
-  text-align: center;
-  padding-bottom: 2em;
 }
 
 .experience_template_one {
