@@ -4,8 +4,18 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.main_heading,
+header {
+  background-color: #f7f7f7;
+}
+
+
+/* Navbar */
 .hamburguer {
-  font-size: 1.5em;
+  font-size: 0.5em !important;
+  color: gray;
+  padding: 1em;
+  cursor: pointer;
 }
 
 .link_about a {
@@ -21,8 +31,9 @@ body {
   list-style-type: none;
 }
 
+/* Home Page */
 .main_heading {
-  margin-top: 3em;
+  padding-top: 3em;
 }
 
 .main_heading h1 {
@@ -129,4 +140,92 @@ i .fa-solid .fa-user-gear {
 
 .fa-angle-down {
   color: orange;
+  font-size: 1em !important;
 }
+
+/* About Page */
+
+.main_text_about h2, 
+.main_text_about h1 {
+  text-align: center;
+  color: orange;
+}
+
+.main_description_about {
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.complementary_description_main,
+.main_email {
+  text-align: center;
+  padding: 0 1em;
+  padding-bottom: 2em;
+}
+
+.info_logo h4 {
+  margin-top: 2.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.info_logo p {
+  text-align: center;
+  padding: 1em;
+}
+
+.info_logo img {
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.experience h4 {
+  margin-top: 2.5em;
+  text-align: center;
+}
+
+.experience p,
+.experience_template_one h2, 
+.experience_template_two h2 {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.experience_template_one {
+  background-image: url("./capstone_image1.png");
+  width: 90%;
+  margin: 0.5em 1em;
+}
+
+.experience_template_two {
+  background-image: url("./capstone_image2.png");
+  width: 90%;
+  margin: 0.5em 1em;
+}
+
+.partners {
+    background-color: #414245;
+    padding-bottom: 1.5em;
+}
+
+.partners h6 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.partners_icons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 1em;
+}
+
+.fa-brands, .fa-solid {
+  font-size: 4em;
+  margin-right: 0.2em;
+}
+
+
+
