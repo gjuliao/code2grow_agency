@@ -7,6 +7,14 @@ body {
   box-sizing: border-box;
 }
 
+hr {
+  width: 10%;
+  margin: auto;
+  background-color: orange;
+  border: none;
+  height: 1px;
+}
+
 .main_heading,
 header {
   background-color: #f7f7f7;
@@ -86,6 +94,7 @@ nav p:hover {
 /* Home Page */
 .main_heading {
   padding-top: 2em;
+  margin-bottom: 3em;
 }
 
 .main_heading h1 {
@@ -123,7 +132,7 @@ nav p:hover {
 
 .main_program {
   background-color: black;
-  margin-top: -1em;
+  margin-top: -3em;
 }
 
 .main_program h3 {
@@ -269,16 +278,49 @@ i .fa-solid .fa-user-gear {
   text-align: center;
 }
 
+.experience p {
+  width: 80%;
+  margin: auto;
+  padding-top: 1em;
+}
+
 .experience_template_one {
   background-image: url("./capstone_image1.png");
   width: 90%;
   margin: 0.5em 1em;
+  box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
+}
+
+.experience_template_one:hover,
+.experience_template_two:hover {
+    box-shadow: inset 0 0 0 1000px rgba(37, 31, 31, 0.58);
 }
 
 .experience_template_two {
   background-image: url("./capstone_image2.png");
   width: 90%;
   margin: 0.5em 1em;
+  box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
+}
+
+.experience_template_one h2,
+.experience_template_two h2 {
+    text-align: center;
+    padding-top: 15%;
+    color: white;
+}
+
+.experience_template_one p,
+.experience_template_two p {
+    color: white;
+    margin-top: -3em;
+}
+
+.info_logo h4 {
+    width: 70%;
+    font-size: 1.5em;
+    margin: auto;
+    padding-bottom: 0.5em;
 }
 
 .partners {
