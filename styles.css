@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@100&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.main_heading,
+header {
+  background-color: #f7f7f7;
+}
+
+/* Navbar */
+.hamburguer {
+  font-size: 0.5em !important;
+  color: gray;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.link_about a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#overlay {
+  display: none;
+}
+
+.nav_ul {
+  list-style-type: none;
+}
+
+/* Home Page */
+.main_heading {
+  padding-top: 3em;
+}
+
+.main_heading h1 {
+  font-size: 2em;
+}
+
+.main_description {
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.main_time {
+  font-weight: 900;
+}
+
+.main_program {
+  background-color: black;
+}
+
+.main_program h3 {
+  color: white;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.card_main_program {
+  display: grid;
+  margin: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-row: 1fr;
+}
+
+.card_main_program p {
+  color: white;
+  width: 90%;
+  padding: 0 0.8em;
+  font-size: 1em;
+}
+
+.card_main_program h4 {
+  color: #ec5242;
+  text-align: center;
+  margin: auto 0;
+  font-size: 1.5em;
+}
+
+.fa-user-astronaut {
+  color: white;
+  font-size: 3em;
+  justify-self: center;
+  align-self: center;
+}
+
+.main_program button {
+  background-color: #ec5242;
+  border-style: none;
+  padding: 1em;
+  color: whitesmoke;
+  margin: 2em 30%;
+  font-size: 1em;
+}
+
+.speakers {
+  margin-bottom: 2em;
+}
+
+.all_speakers {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.speakers h3 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.card_speaker {
+  display: flex;
+}
+
+.card_speaker img {
+  max-width: 25%;
+  max-height: 40%;
+  justify-self: center;
+  align-self: center;
+  margin: auto;
+}
+
+.fa-user-gear {
+  font-size: 2em;
+  align-self: center;
+  margin: auto;
+}
+
+i .fa-solid .fa-user-gear {
+  width: 30%;
+}
+
+.speaker_details {
+  width: 70%;
+}
+
+.speakers button {
+  padding: 1em;
+  font-size: 1em;
+  border-style: none;
+  width: 100%;
+  margin: auto;
+}
+
+.fa-angle-down {
+  color: orange;
+  font-size: 1em !important;
+}
+
+/* About Page */
+
+.main_text_about h2,
+.main_text_about h1 {
+  text-align: center;
+  color: orange;
+}
+
+.main_description_about {
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.complementary_description_main,
+.main_email {
+  text-align: center;
+  padding: 0 1em;
+  padding-bottom: 2em;
+}
+
+.info_logo h4 {
+  margin-top: 2.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.info_logo p {
+  text-align: center;
+  padding: 1em;
+}
+
+.info_logo img {
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.experience h4 {
+  margin-top: 2.5em;
+  text-align: center;
+}
+
+.experience p,
+.experience_template_one h2,
+.experience_template_two h2 {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.experience_template_one {
+  background-image: url("./capstone_image1.png");
+  width: 90%;
+  margin: 0.5em 1em;
+}
+
+.experience_template_two {
+  background-image: url("./capstone_image2.png");
+  width: 90%;
+  margin: 0.5em 1em;
+}
+
+.partners {
+  background-color: #414245;
+  padding-bottom: 1.5em;
+}
+
+.partners h6 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.partners_icons {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 1em;
+}
+
+.fa-brands,
+.fa-solid {
+  font-size: 4em;
+  margin-right: 0.2em;
+}
