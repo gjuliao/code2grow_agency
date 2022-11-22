@@ -20,7 +20,21 @@
          <div class="hamburguer" onclick="on()">
             <i class="fa-solid fa-bars"></i>
          </div>
-        <nav id="overlay">
+        <nav>
+            <div class="main_logo">
+                <img src="./code2grow_logo.png" alt="Code2Grow Logo">
+            </div>
+            <ul class="nav_ul">
+                <li class="link_about nav_link"><a href="/about.html">About </a></li>
+                <li class="nav_link">Program</li>
+                <li class="nav_link">Join</li>
+                <li class="nav_link">Sponsors</li>
+                <li class="nav_link">News</li>
+                <li class="campaign">G2C Campaign</li>
+            </ul>
+        </nav>
+
+        <div id="overlay">
             <p onclick="off()">X</p>
             <ul class="nav_ul">
                 <li class="link_about"><a href="/about.html">About </a></li>
@@ -30,8 +44,9 @@
                 <li>News</li>
                 <li>G2C Campaign</li>
             </ul>
-        </nav>
+        </div>
     </header>
+
     <main>
         <section class="main_heading">
             <div class="main_text">
@@ -46,39 +61,43 @@
         <section class="main_program">
             <div class="main_program_title">
                 <h3>Main Program</h3>
-                <div class="card_main_program">
-                    <i class="fa-solid fa-book-open-reader"></i>                  
-                    <h4>Lecture</h4>
-                    <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
-                </div>
-                <div class="card_main_program">
-                    <i class="fa-solid fa-circle-play"></i>
-                    <h4>Lecture</h4>
-                    <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
-                </div>
-                <div class="card_main_program">
-                    <i class="fa-solid fa-comments"></i>
-                    <h4>Lecture</h4>
-                    <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
-                </div>
-                <div class="card_main_program">
-                    <i class="fa-solid fa-chart-line"></i>
-                    <h4>Lecture</h4>
-                    <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
-                </div>
-                <div class="card_main_program">
-                    <i class="fa-solid fa-user-plus"></i>
-                    <h4>Lecture</h4>
-                    <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
+                <hr>
+                <div class="program_container">
+                    <div class="card_main_program">
+                        <i class="fa-solid fa-book-open-reader"></i>                  
+                        <h4>Lecture</h4>
+                        <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
+                    </div>
+                    <div class="card_main_program">
+                        <i class="fa-solid fa-circle-play"></i>
+                        <h4>Lecture</h4>
+                        <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
+                    </div>
+                    <div class="card_main_program">
+                        <i class="fa-solid fa-comments"></i>
+                        <h4>Lecture</h4>
+                        <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
+                    </div>
+                    <div class="card_main_program">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h4>Lecture</h4>
+                        <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
+                    </div>
+                    <div class="card_main_program">
+                        <i class="fa-solid fa-user-plus"></i>
+                        <h4>Lecture</h4>
+                        <p>voluptas officia iusto ipsum voluptas officia iusto ipsum voluptas officia iusto ipsum!</p>
+                    </div>
                 </div>
             </div>
             <button>Hire C2G Here</button>
+            <p class="click_experience"><a href="">SEE THE WHOLE EXPERIENCE</a></p>
         </section>
 
         <section class="speakers">
             <h3>Feature Speakers</h3>
             <div class="all_speakers">
-                <div class="card_speaker">
+                <div class="card_speaker guy_one">
                     <img src="./guy_one.jpeg" alt="Main speaker">
                     <div class="speaker_details">
                         <h6>Mario Kart</h6>
@@ -87,8 +106,44 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nulla eius eligendi animi consequatur atque!</p>
                     </div>
                 </div>
-                <div class="card_speaker">
+                <div class="card_speaker lady_one">
                     <img src="./ladies_one.jpeg" alt="Main Speaker">
+                    <div class="speaker_details">
+                        <h6>Mario Kart</h6>
+                        <p class="speaker_profile">Lorem ipsum consectetur adipisicing elit. Expedita nulla, sit et ipsa suscipit eius?</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nulla eius eligendi animi consequatur atque!</p>
+                    </div>
+                </div>
+                <div class="card_speaker guy_two">
+                    <img src="./guy_two.jpeg" alt="Main Speaker">
+                    <div class="speaker_details">
+                        <h6>Mario Kart</h6>
+                        <p class="speaker_profile">Lorem ipsum consectetur adipisicing elit. Expedita nulla, sit et ipsa suscipit eius?</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nulla eius eligendi animi consequatur atque!</p>
+                    </div>
+                </div>
+                <div class="card_speaker lady_two">
+                    <img src="./ladies_two.jpeg" alt="Main Speaker">
+                    <div class="speaker_details">
+                        <h6>Mario Kart</h6>
+                        <p class="speaker_profile">Lorem ipsum consectetur adipisicing elit. Expedita nulla, sit et ipsa suscipit eius?</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nulla eius eligendi animi consequatur atque!</p>
+                    </div>
+                </div>
+                <div class="card_speaker guy_three">
+                    <img src="./guy_three.jpeg" alt="Main Speaker">
+                    <div class="speaker_details">
+                        <h6>Mario Kart</h6>
+                        <p class="speaker_profile">Lorem ipsum consectetur adipisicing elit. Expedita nulla, sit et ipsa suscipit eius?</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nulla eius eligendi animi consequatur atque!</p>
+                    </div>
+                </div>
+                <div class="card_speaker lady_three">
+                    <img src="./ladies_three.jpeg" alt="Main Speaker">
                     <div class="speaker_details">
                         <h6>Mario Kart</h6>
                         <p class="speaker_profile">Lorem ipsum consectetur adipisicing elit. Expedita nulla, sit et ipsa suscipit eius?</p>
@@ -101,9 +156,30 @@
             <button>More <i class="fa-sharp fa-solid fa-angle-down"></i></button>
         </section>
 
-        <aside></aside>
+        <section class="partners">
+            <h6>Partners</h6>
+            <hr>
+            <div class="partners_icons">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-solid fa-font-awesome"></i>
+            </div>
+            
+         </section>
+
     </main>
-    <footer></footer>
+
+    <footer>
+        <div class="logo">
+            <img src="./code2grow_logo.png" alt="Code2Grow Logo">
+        </div>
+        <div class="text_footer">
+            <p>2022 Code2Grow International</p>
+            <p class="rights">Rights reserved</p>
+        </div>
+    </footer>
     
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />

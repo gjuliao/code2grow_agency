@@ -8,6 +8,10 @@ body {
   box-sizing: border-box;
 }
 
+nav {
+  display: none;
+}
+
 hr {
   width: 10%;
   margin: auto;
@@ -88,6 +92,14 @@ nav p:hover {
   padding-bottom: 1em;
 }
 
+#overlay p {
+  margin-left: 80%;
+}
+
+#overlay p:hover {
+  color: #fc3f28;
+}
+
 .nav_ul {
   list-style-type: none;
 }
@@ -112,7 +124,7 @@ nav p:hover {
 
 .main_heading h1 {
   font-size: 3em;
-  margin: 0 0.6em;
+  margin: 0 0.2em;
   padding-bottom: 0.5em;
   font-family: 'Secular One', sans-serif;
   color: #ec5242;
@@ -150,6 +162,7 @@ nav p:hover {
   padding-bottom: 3em;
 }
 
+/* Program Section */
 .main_program {
   background-color: black;
   margin-top: -3em;
@@ -165,7 +178,6 @@ nav p:hover {
   display: grid;
   margin: 0.5em;
   padding: 0.5em;
-  width: 100%;
   grid-template-columns: 1fr 1fr 2fr;
   grid-row: 1fr;
 }
@@ -196,6 +208,8 @@ nav p:hover {
   margin: 2em 30%;
   font-size: 1em;
 }
+
+/* Speaker Section */
 
 .speakers {
   margin-bottom: 2em;
@@ -260,6 +274,10 @@ i .fa-solid .fa-user-gear {
   font-size: 1em !important;
 }
 
+.click_experience {
+  display: none;
+}
+
 /* About Page */
 
 .main_heading_about {
@@ -270,6 +288,7 @@ i .fa-solid .fa-user-gear {
 .main_heading_about h1 {
   font-family: 'Secular One', sans-serif;
   color: #fc3f28;
+  padding: 0 1em;
 }
 
 .main_text_about h2,
@@ -366,9 +385,10 @@ i .fa-solid .fa-user-gear {
 .partners_icons {
   display: flex;
   justify-content: space-between;
+  padding: 1.5em 0;
   margin: auto;
-  padding: 1.5em 0.2em;
-  width: 80%;
+  width: 90%;
+  color: gray;
 }
 
 .partners_icons2 {
@@ -389,12 +409,278 @@ footer {
   display: flex;
 }
 
+.logo img {
+  width: 80%;
+  margin: auto 5%;
+}
+
 .text_footer {
   align-items: center;
   margin-top: 0.8em;
   color: gray;
+  font-size: 0.6em;
+  width: 60%;
 }
 
 .rights {
   margin-top: -0.7em;
+}
+
+/* Desktop View Home */
+
+@media only screen and (min-width: 768px) {
+  /* Home Desktop View */
+
+  nav {
+    display: block;
+    display: flex;
+    background-color: white;
+    height: 4.5em;
+  }
+
+  .main_logo img {
+    width: 75%;
+    margin-left: 4em;
+    cursor: pointer;
+    margin-top: -0.2em;
+  }
+
+  .hamburguer {
+    display: none;
+  }
+
+  .nav_ul {
+    display: flex;
+    font-size: 0.8em;
+    margin: auto;
+  }
+
+  .nav_ul li {
+    margin-right: 1em;
+  }
+
+  .nav_ul li:hover {
+    color: #fc3f28;
+  }
+
+  .campaign {
+    border: 0.3em solid #fc3f28;
+    padding: 0.2em;
+    color: #fc3f28;
+  }
+
+  .nav_link {
+    padding: 0.4em;
+    margin-top: 0.3em;
+  }
+
+  .main_heading {
+    padding-left: 3em;
+    padding-bottom: 2em;
+  }
+
+  .main_text h2 {
+    font-size: 2em;
+    margin-top: 2em;
+  }
+
+  .main_text h1 {
+    font-size: 5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .main_description {
+    width: 60%;
+    padding: 1.5em;
+  }
+
+  .main_time {
+    font-size: 2em;
+    font-weight: 900;
+  }
+
+  .main_location {
+    padding-left: 0.5em;
+  }
+
+  .program_container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .card_main_program {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+  }
+
+  .card_main_program i {
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  .card_main_program p {
+    margin: auto;
+    padding-top: 0.9em;
+  }
+
+  .main_program button {
+    display: none;
+  }
+
+  .click_experience {
+    color: gray;
+    cursor: pointer;
+    padding: 2em;
+    text-decoration-line: underline;
+    margin: 0 30%;
+  }
+
+  .click_experience a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .all_speakers {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "guyone ladyone"
+      "ladytwo guytwo"
+      "guythree ladythree";
+  }
+
+  .guy_one {
+    grid-area: guyone;
+  }
+
+  .guy_two {
+    grid-area: guytwo;
+  }
+
+  .guy_three {
+    grid-area: guythree;
+  }
+
+  .lady_one {
+    grid-area: ladyone;
+  }
+
+  .lady_two {
+    grid-area: ladytwo;
+  }
+
+  .lady_three {
+    grid-area: ladythree;
+  }
+
+  .speaker_details {
+    margin-left: 1em;
+  }
+
+  .card_speaker img {
+    max-width: 30%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    margin-right: 0.5em;
+  }
+
+  .card_speaker hr {
+    margin-left: 0;
+    color: gray;
+    background-color: gray;
+    height: 1px;
+    border: none;
+  }
+
+  .speaker_details h6 {
+    padding-bottom: 0.3em;
+  }
+
+  .speaker_details p {
+    padding-top: 0.3em;
+  }
+
+  .speaker_profile {
+    padding-bottom: 0.6em;
+  }
+
+  .speakers button {
+    display: none;
+  }
+
+  .partners_icons,
+  .partners_icons2 {
+    width: 50%;
+    margin-top: 0.5em;
+  }
+
+  footer {
+    margin: 1% 10%;
+  }
+
+  .logo {
+    margin-left: 20%;
+  }
+
+  footer .text_footer {
+    width: 30%;
+    margin: auto;
+  }
+
+  /* About Desktop View */
+
+  .main_text_about h1 {
+    margin: auto;
+    width: 65%;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+  }
+
+  .main_description_about {
+    width: 70%;
+    margin: auto;
+    margin-top: 1em;
+  }
+
+  .complementary_description_main {
+    padding-top: 2em;
+    width: 50%;
+    margin: auto;
+  }
+
+  .info_logo p {
+    color: gray;
+    width: 70%;
+    margin: auto;
+  }
+
+  .info_logo img {
+    width: 30%;
+    margin: 0 35%;
+    border: 1px solid lightgray;
+    margin-top: 2em;
+  }
+
+  .experience_images {
+    display: flex;
+    margin: 0 20%;
+    max-height: 10em;
+  }
+
+  .experience_template_one h2,
+  .experience_template_two h2 {
+    padding: 0;
+  }
 }
