@@ -398,3 +398,189 @@ footer {
 .rights {
   margin-top: -0.7em;
 }
+
+/* Desktop View Home */
+
+@media only screen and (min-width: 768px) {
+
+  /* Home Desktop View */
+  .main_heading {
+    padding-left: 3em;
+    padding-bottom: 2em;
+  }
+
+  .main_text h2 {
+    font-size: 2em;
+  }
+
+  .main_text h1 {
+    font-size: 5em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .main_description {
+    width: 60%;
+    padding: 1.5em;
+  }
+
+  .main_time {
+    font-size: 2em;
+    font-weight: 900;
+  }
+
+  .main_location {
+    padding-left: 0.5em;
+  }
+
+  .program_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 2em;
+  }
+
+  .card_main_program {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card_main_program i {
+    padding: 1em;
+    font-size: 1em;
+  }
+
+  .card_main_program p {
+    margin: auto;
+    padding-top: 0.9em;
+  }
+
+  .main_program button {
+    display: none;
+  }
+
+  .click_experience {
+    color: gray;
+    cursor: pointer;
+    padding: 2em;
+    text-decoration-line: underline;
+    margin: 0 30%;
+  }
+
+  .click_experience a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .all_speakers {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+      "guyone ladyone"
+      "ladytwo guytwo"
+      "guythree ladythree";
+  }
+
+  .guy_one {
+    grid-area: guyone;
+  }
+
+  .guy_two {
+    grid-area: guytwo;
+  }
+
+  .guy_three {
+    grid-area: guythree;
+  }
+
+  .lady_one {
+    grid-area: ladyone;
+  }
+
+  .lady_two {
+    grid-area: ladytwo;
+  }
+
+  .lady_three {
+    grid-area: ladythree;
+  }
+
+  .speaker_details {
+    margin-left: 1em;
+  }
+
+  .card_speaker img {
+    max-width: 30%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    margin-right: 0.5em;
+  }
+
+  .card_speaker hr {
+    margin-left: 0;
+    color: gray;
+    background-color: gray;
+    height: 1px;
+    border: none;
+  }
+
+  .speaker_details h6 {
+    padding-bottom: 0.3em;
+  }
+
+  .speaker_details p {
+    padding-top: 0.3em;
+  }
+
+  .speaker_profile {
+    padding-bottom: 0.6em;
+  }
+
+  .speakers button {
+    display: none;
+  }
+
+  .partners_icons,
+  .partners_icons2 {
+    width: 50%;
+    margin-top: 0.5em;
+  }
+
+  footer {
+    margin: 1% 10%;
+  }
+
+  footer .text_footer {
+    width: 80%;
+  }
+
+  /* About Desktop View */
+
+  .main_text_about h1 {
+    margin: auto;
+    width: 65%;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+  }
+
+
+  .main_description_about {
+    width: 70%;
+    margin: auto;
+    margin-top: 1em;
+  }
+
+  .complementary_description_main {
+    padding-top: 2em;
+    width: 50%;
+    margin: auto;
+  }
+
+}
