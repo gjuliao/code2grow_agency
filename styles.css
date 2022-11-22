@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 body {
   font-family: 'Lato', sans-serif;
@@ -98,9 +99,16 @@ nav p:hover {
 }
 
 .main_heading h1 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0 0.6em;
   padding-bottom: 0.5em;
+  font-family: 'Secular One', sans-serif;
+  color: #ec5242;
+  letter-spacing: 0.2em;
+  background: url(./background_text.png) 100% 100%;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .main_text h2 {
@@ -242,22 +250,44 @@ i .fa-solid .fa-user-gear {
 
 /* About Page */
 
+.main_heading_about {
+  background-color: #f7f7f7;
+  padding-top: 1em;
+}
+
+.main_heading_about h1 {
+  font-family: 'Secular One', sans-serif;
+  color: #fc3f28
+}
+
 .main_text_about h2,
 .main_text_about h1 {
   text-align: center;
-  color: orange;
 }
 
 .main_description_about {
   margin: 1em;
-  padding: 1em;
+  padding: 1.5em 1em;
   text-align: center;
+  color: gray;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.complementary_description_main {
+  margin-bottom: -0.8em;
 }
 
 .complementary_description_main,
 .main_email {
   text-align: center;
   padding: 0 1em;
+  color: gray;
+}
+
+.main_email {
+  font-style: bold;
+  color: gray;
   padding-bottom: 2em;
 }
 
@@ -331,17 +361,43 @@ i .fa-solid .fa-user-gear {
 .partners h6 {
   text-align: center;
   font-size: 2em;
+  padding-top: 1em;
+  color: white;
+  margin-bottom: 0.8em;
 }
 
 .partners_icons {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  padding: 0 1em;
+  padding: 1.5em 0.2em;
+  width: 80%;
+}
+
+.partners_icons2 {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 0.5em;
 }
 
 .fa-brands,
 .fa-solid {
   font-size: 4em;
   margin-right: 0.2em;
+}
+
+footer {
+  display: flex;
+}
+
+.text_footer {
+  align-items: center;
+  margin-top: 0.8em;
+  color: gray;
+}
+
+.rights {
+  margin-top: -0.7em;
 }
