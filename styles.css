@@ -129,7 +129,7 @@ nav p:hover {
   font-family: 'Secular One', sans-serif;
   color: #ec5242;
   letter-spacing: 0.2em;
-  background: url(./background_text.png) 100% 100%;
+  background: url(./Assets/background_text.png) 100% 100%;
   background-size: cover;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -560,27 +560,27 @@ footer {
       "guythree ladythree";
   }
 
-  .guy_one {
+  .guy_1 {
     grid-area: guyone;
   }
 
-  .guy_two {
+  .guy_2 {
     grid-area: guytwo;
   }
 
-  .guy_three {
+  .guy_3 {
     grid-area: guythree;
   }
 
-  .lady_one {
+  .lady_1 {
     grid-area: ladyone;
   }
 
-  .lady_two {
+  .lady_2 {
     grid-area: ladytwo;
   }
 
-  .lady_three {
+  .lady_3 {
     grid-area: ladythree;
   }
 
