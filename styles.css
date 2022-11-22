@@ -64,6 +64,18 @@ nav p {
   padding-bottom: 2em;
 }
 
+.experience_template_one p,
+.experience_template_two p {
+  color: white;
+  margin-top: -3em;
+}
+
+.experience p {
+  width: 80%;
+  margin: auto;
+  padding-top: 1em;
+}
+
 nav p:hover {
   color: darkslategray;
   font-weight: 700;
@@ -257,7 +269,7 @@ i .fa-solid .fa-user-gear {
 
 .main_heading_about h1 {
   font-family: 'Secular One', sans-serif;
-  color: #fc3f28
+  color: #fc3f28;
 }
 
 .main_text_about h2,
@@ -292,6 +304,10 @@ i .fa-solid .fa-user-gear {
 }
 
 .info_logo h4 {
+  width: 70%;
+  font-size: 1.5em;
+  margin: auto;
+  padding-bottom: 0.5em;
   margin-top: 2.5em;
   text-align: center;
   font-weight: bold;
@@ -308,22 +324,11 @@ i .fa-solid .fa-user-gear {
   text-align: center;
 }
 
-.experience p {
-  width: 80%;
-  margin: auto;
-  padding-top: 1em;
-}
-
 .experience_template_one {
   background-image: url("./capstone_image1.png");
   width: 90%;
   margin: 0.5em 1em;
   box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
-}
-
-.experience_template_one:hover,
-.experience_template_two:hover {
-    box-shadow: inset 0 0 0 1000px rgba(37, 31, 31, 0.58);
 }
 
 .experience_template_two {
@@ -333,24 +338,16 @@ i .fa-solid .fa-user-gear {
   box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
 }
 
+.experience_template_one:hover,
+.experience_template_two:hover {
+  box-shadow: inset 0 0 0 1000px rgba(37, 31, 31, 0.58);
+}
+
 .experience_template_one h2,
 .experience_template_two h2 {
-    text-align: center;
-    padding-top: 15%;
-    color: white;
-}
-
-.experience_template_one p,
-.experience_template_two p {
-    color: white;
-    margin-top: -3em;
-}
-
-.info_logo h4 {
-    width: 70%;
-    font-size: 1.5em;
-    margin: auto;
-    padding-bottom: 0.5em;
+  text-align: center;
+  padding-top: 15%;
+  color: white;
 }
 
 .partners {
@@ -375,11 +372,11 @@ i .fa-solid .fa-user-gear {
 }
 
 .partners_icons2 {
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-    margin: auto;
-    padding-bottom: 0.5em;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 0.5em;
 }
 
 .fa-brands,
