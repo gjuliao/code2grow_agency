@@ -344,14 +344,14 @@ i .fa-solid .fa-user-gear {
 }
 
 .experience_template_one {
-  background-image: url("./capstone_image1.png");
+  background-image: url("./Assets/capstone_image1.png");
   width: 90%;
   margin: 0.5em 1em;
   box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
 }
 
 .experience_template_two {
-  background-image: url("./capstone_image2.png");
+  background-image: url("./Assets/capstone_image2.png");
   width: 90%;
   margin: 0.5em 1em;
   box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
