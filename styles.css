@@ -402,8 +402,8 @@ footer {
 /* Desktop View Home */
 
 @media only screen and (min-width: 768px) {
-
   /* Home Desktop View */
+
   .main_heading {
     padding-left: 3em;
     padding-bottom: 2em;
@@ -481,7 +481,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
       "guyone ladyone"
       "ladytwo guytwo"
       "guythree ladythree";
@@ -570,7 +570,6 @@ footer {
     padding-bottom: 0.5em;
   }
 
-
   .main_description_about {
     width: 70%;
     margin: auto;
@@ -583,4 +582,27 @@ footer {
     margin: auto;
   }
 
+  .info_logo p {
+    color: gray;
+    width: 70%;
+    margin: auto;
+  }
+
+  .info_logo img {
+    width: 30%;
+    margin: 0 35%;
+    border: 1px solid lightgray;
+    margin-top: 2em;
+  }
+
+  .experience_images {
+    display: flex;
+    margin: 0 20%;
+    max-height: 10em;
+  }
+
+  .experience_template_one h2,
+  .experience_template_two h2 {
+    padding: 0;
+  }
 }
