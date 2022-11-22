@@ -3,42 +3,42 @@
         "id": 0,
         "name": "Julian Orange",
         "profile": "Expert in HTML, CSS & Javascript",
-        "experience": "Head of Software Development at Microsoft",
+        "experience": "Head of Software Development at Microsoft.  Graduated from Stanford, with +8 years of experience. Previously worked at ICQ.",
         "img": "Assets/guy_one.jpeg"
     },
     {
         "id": 1,
         "name": "Sylvia Blue",
         "profile": "Data Science",
-        "experience": "Head of Data Science MIT",
+        "experience": "Head of Data Science MIT. Graduated from FYI, with +10 years of experience. Previously worked at Twitter.",
         "img": "Assets/ladies_one.jpeg"
     },
     {
         "id": 2,
         "name": "Jack Lime",
         "profile": "Expert in HTML, CSS & Javascript",
-        "experience": "Head of Development at Spotify",
+        "experience": "Head of Development at Spotify.  Graduate in 2002, from UCLA. Previously worked at Apple.",
         "img": "Assets/guy_two.jpeg"
     },
     {
         "id": 3,
         "name": "Maria Green",
         "profile": "Expert in HTML, CSS & Javascript",
-        "experience": "Head of Software Development at Apple",
+        "experience": "Head of Software Development at Apple.  Graduate from Harvard in 2010. Previously worked at Nokia.",
         "img": "Assets/ladies_two.jpeg"
     },
     {
         "id": 4,
         "name": "Gabriel White",
         "profile": "Senior User Experience",
-        "experience": "Head of Design at Slack",
+        "experience": "Head of Design at Slack.  Graduate in Boston in 2009.  Previously worked at Microsoft.",
         "img": "Assets/guy_three.jpeg"
     },
     {
         "id": 5,
         "name": "Vanessa Gray",
         "profile": "Scrum Master",
-        "experience": "Head of Scrum at WeWork",
+        "experience": "Head of Scrum at WeWork.  Graduate in UCLA in 2015. Previously worked at Skype.",
         "img": "Assets/ladies_three.jpeg"
     }
 ]

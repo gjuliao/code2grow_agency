@@ -54,6 +54,15 @@ nav p {
 .speaker_details p {
   margin: 0;
   font-size: 0.7em;
+  padding: 0.7em 0;
+  margin-bottom: 0.1em;
+}
+
+.speaker_details hr {
+  margin-left: 0.1em;
+  background-color: gray;
+  border: none;
+  height: 1px;
 }
 
 .info_logo p {
@@ -124,8 +133,8 @@ nav p:hover {
 
 .main_heading h1 {
   font-size: 3em;
-  margin: 0 0.2em;
-  padding-bottom: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
   font-family: 'Secular One', sans-serif;
   color: #ec5242;
   letter-spacing: 0.2em;
@@ -154,12 +163,14 @@ nav p:hover {
   margin: 0.5em 1em;
   font-size: 1.4em;
   color: gray;
+  font-family: 'Secular One', sans-serif;
 }
 
 .main_location {
   margin: 0 1em;
   color: gray;
   padding-bottom: 3em;
+  font-family: 'Secular One', sans-serif;
 }
 
 /* Program Section */
@@ -211,10 +222,6 @@ nav p:hover {
 
 /* Speaker Section */
 
-.speakers {
-  margin-bottom: 2em;
-}
-
 .all_speakers {
   display: grid;
   grid-template-columns: 1fr;
@@ -235,6 +242,11 @@ nav p:hover {
   justify-self: center;
   align-self: center;
   margin: auto;
+  max-width: 30%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  margin-right: 1em;
 }
 
 .speaker_profile {
@@ -242,15 +254,6 @@ nav p:hover {
   font-style: italic;
 }
 
-.fa-user-gear {
-  font-size: 2em;
-  align-self: center;
-  margin: auto;
-}
-
-i .fa-solid .fa-user-gear {
-  width: 30%;
-}
 
 .speaker_details {
   width: 70%;
@@ -320,6 +323,7 @@ i .fa-solid .fa-user-gear {
   font-style: bold;
   color: gray;
   padding-bottom: 2em;
+  font-family: 'Secular One', sans-serif;
 }
 
 .info_logo h4 {
@@ -372,6 +376,7 @@ i .fa-solid .fa-user-gear {
 .partners {
   background-color: #414245;
   padding-bottom: 1.5em;
+  display: none;
 }
 
 .partners h6 {
@@ -618,6 +623,10 @@ footer {
 
   .speakers button {
     display: none;
+  }
+
+  .partners {
+    display: block;
   }
 
   .partners_icons,

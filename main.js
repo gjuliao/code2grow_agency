@@ -7,6 +7,7 @@ function off() {
   }
 
   function getSpeakers() {
+    const speakers = document.getElementById("all_speakers");
     let output = "";
     fetch("users.json")
     .then((res) => res.json())
@@ -23,7 +24,7 @@ function off() {
                     </div>
             </div>
             `;
-            document.getElementById("all_speakers").innerHTML = output;
+            speakers.innerHTML = output;
         })
     })
   }
