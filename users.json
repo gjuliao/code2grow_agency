@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "Julian Orange",
+        "profile": "Expert in HTML, CSS & Javascript",
+        "experience": "Head of Software Development at Microsoft",
+        "img": "Assets/guy_one.jpeg"
+    },
+    {
+        "id": 1,
+        "name": "Sylvia Blue",
+        "profile": "Data Science",
+        "experience": "Head of Data Science MIT",
+        "img": "Assets/ladies_one.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Jack Lime",
+        "profile": "Expert in HTML, CSS & Javascript",
+        "experience": "Head of Development at Spotify",
+        "img": "Assets/guy_two.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Maria Green",
+        "profile": "Expert in HTML, CSS & Javascript",
+        "experience": "Head of Software Development at Apple",
+        "img": "Assets/ladies_two.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Gabriel White",
+        "profile": "Senior User Experience",
+        "experience": "Head of Design at Slack",
+        "img": "Assets/guy_three.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Vanessa Gray",
+        "profile": "Scrum Master",
+        "experience": "Head of Scrum at WeWork",
+        "img": "Assets/ladies_three.jpeg"
+    }
+]
