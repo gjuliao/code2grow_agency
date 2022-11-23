@@ -1,10 +1,3 @@
-function on() {
-    document.getElementById("overlay").style.display = "block";
-}
-
-function off() {
-    document.getElementById("overlay").style.display = "none";
-  }
 
   function getSpeakers() {
     const speakers = document.getElementById("all_speakers");
@@ -29,4 +22,21 @@ function off() {
     })
   }
 
+
   window.addEventListener('load', getSpeakers());
+
+
+  function showUsers() {
+    console.log(123);
+    document.getElementsByClassName("guy_2").style.display = "block";
+    document.getElementsByClassName("guy_3").style.display = "block";
+    document.getElementsByClassName("guy_4").style.display = "block";
+    document.getElementsByClassName("guy_5").style.display = "block";
+}
+
+function hideUsers() {
+    document.getElementsByClassName("guy_2").style.display = "none";
+    document.getElementsByClassName("guy_3").style.display = "none";
+    document.getElementsByClassName("guy_4").style.display = "none";
+    document.getElementsByClassName("guy_5").style.display = "none";
+  }

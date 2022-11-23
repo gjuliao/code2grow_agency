@@ -46,7 +46,6 @@ nav p {
 
 .card_main_program p {
   color: white;
-  width: 90%;
   padding: 0 0.8em;
   font-size: 1em;
 }
@@ -277,6 +276,10 @@ nav p:hover {
   font-size: 1em !important;
 }
 
+.speakers button {
+  margin-top: -50em;
+}
+
 .click_experience {
   display: none;
 }
@@ -493,6 +496,7 @@ footer {
     font-size: 5em;
     margin-bottom: 0;
     padding-bottom: 0;
+    margin-top: 0.1em;
   }
 
   .main_description {
@@ -565,27 +569,27 @@ footer {
       "guythree ladythree";
   }
 
-  .guy_1 {
+  .guy_0 {
     grid-area: guyone;
   }
 
-  .guy_2 {
+  .guy_1 {
     grid-area: guytwo;
   }
 
-  .guy_3 {
+  .guy_2 {
     grid-area: guythree;
   }
 
-  .lady_1 {
+  .guy_3 {
     grid-area: ladyone;
   }
 
-  .lady_2 {
+  .guy_4 {
     grid-area: ladytwo;
   }
 
-  .lady_3 {
+  .guy_5 {
     grid-area: ladythree;
   }
 
