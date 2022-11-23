@@ -8,6 +8,10 @@ body {
   box-sizing: border-box;
 }
 
+.nav2 ul {
+  display: none;
+}
+
 nav {
   display: none;
 }
@@ -155,6 +159,7 @@ nav p:hover {
 .main_heading h1 {
   font-size: 3em;
   margin-left: 0.5em;
+  margin-top: 0;
   margin-bottom: 0.5em;
   font-family: 'Secular One', sans-serif;
   color: #ec5242;
@@ -169,6 +174,7 @@ nav p:hover {
   color: #ec5242;
   margin: 0 1em;
   padding-bottom: 0.3em;
+  padding-top: 2em;
 }
 
 .main_description {
@@ -309,7 +315,6 @@ nav p:hover {
 .main_heading_about {
   background-color: #f7f7f7;
   padding-top: 1em;
-  background-image: url("./Assets/about_bg_01.png");
 }
 
 .main_heading_about h1 {
@@ -346,7 +351,7 @@ nav p:hover {
 .main_email {
   font-style: bold;
   color: gray;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   font-family: 'Secular One', sans-serif;
 }
 
@@ -468,6 +473,26 @@ footer {
 @media only screen and (min-width: 768px) {
   /* Home Desktop View */
 
+  .nav2 ul {
+    display: flex;
+    justify-content: end;
+    background-color: #272a31;
+    list-style: none;
+    color: gray;
+    padding-right: 5.9em;
+    height: 2em;
+    align-items: center;
+    margin: 0;
+  }
+
+  .nav_ul li {
+    margin-right: 1em;
+  }
+
+  .nav2 ul li {
+    padding-right: 1em;
+  }
+
   nav {
     display: block;
     display: flex;
@@ -479,7 +504,7 @@ footer {
     width: 75%;
     margin-left: 4em;
     cursor: pointer;
-    margin-top: -0.2em;
+    margin-top: -0.5em;
   }
 
   .hamburguer {
@@ -490,10 +515,6 @@ footer {
     display: flex;
     font-size: 0.8em;
     margin: auto;
-  }
-
-  .nav_ul li {
-    margin-right: 1em;
   }
 
   .nav_ul li:hover {
@@ -684,6 +705,10 @@ footer {
   }
 
   /* About Desktop View */
+
+  .main_heading_about {
+    background-image: url("./Assets/about_bg_01.png");
+  }
 
   .main_text_about h1 {
     margin: auto;
