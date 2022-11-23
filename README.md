@@ -6,7 +6,7 @@ This project was built with the intention of being used for any company that wan
 
 To view a link of the project you can click the following link: [Code2Grow Agency](https://gjuliao.github.io/code2grow_agency/).
 
-To view the loom introductory video click here: [Live Introduction](www.loom.com/pending...)
+To view the loom introductory video click here: [Live Introduction](https://www.loom.com/share/d1e6e3a794b1429cb18ec97efb3686df)
 
 ## Tech Stack
 
@@ -55,6 +55,8 @@ Feel free to check the [Issues](https://github.com/gjuliao/code2grow_agency/issu
 ## Acknowledgements
 
 - [Microvers](https://microverse.org)
+- [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/)
+- [Cindy Chin](https://www.behance.net/adagio07)
 
 ## License
 
