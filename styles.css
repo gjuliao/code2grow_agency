@@ -8,6 +8,10 @@ body {
   box-sizing: border-box;
 }
 
+.nav2 ul {
+  display: none;
+}
+
 nav {
   display: none;
 }
@@ -36,6 +40,7 @@ header {
 .link_about a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 nav p {
@@ -46,7 +51,6 @@ nav p {
 
 .card_main_program p {
   color: white;
-  width: 90%;
   padding: 0 0.8em;
   font-size: 1em;
 }
@@ -96,21 +100,20 @@ nav p:hover {
 
 #overlay {
   display: none;
-  margin-top: -3em;
-  margin-left: 2em;
   padding-bottom: 1em;
-}
-
-#overlay p {
-  margin-left: 80%;
-}
-
-#overlay p:hover {
-  color: #fc3f28;
-}
-
-.nav_ul {
-  list-style-type: none;
+  animation-duration: 4s;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  z-index: 2;
+  opacity: 99%;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
 }
 
 .nav_ul li {
@@ -125,15 +128,38 @@ nav p:hover {
   font-weight: 700;
 }
 
+#overlay li {
+  color: white;
+}
+
+#overlay li:hover {
+  color: #fc3f28;
+}
+
+#overlay p {
+  margin-left: 80%;
+  cursor: pointer;
+}
+
+#overlay p:hover {
+  color: #fc3f28;
+}
+
+.nav_ul {
+  list-style-type: none;
+}
+
 /* Home Page */
 .main_heading {
   padding-top: 2em;
   margin-bottom: 3em;
+  background-image: url("./Assets/main_big.png");
 }
 
 .main_heading h1 {
   font-size: 3em;
   margin-left: 0.5em;
+  margin-top: 0;
   margin-bottom: 0.5em;
   font-family: 'Secular One', sans-serif;
   color: #ec5242;
@@ -141,6 +167,7 @@ nav p:hover {
   background: url(./Assets/background_text.png) 100% 100%;
   background-size: cover;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -148,6 +175,7 @@ nav p:hover {
   color: #ec5242;
   margin: 0 1em;
   padding-bottom: 0.3em;
+  padding-top: 2em;
 }
 
 .main_description {
@@ -175,8 +203,10 @@ nav p:hover {
 
 /* Program Section */
 .main_program {
-  background-color: black;
+  background-color: #272a31;
   margin-top: -3em;
+  background-image: url(./Assets/pattern_bg.png);
+  background-size: 8%;
 }
 
 .main_program h3 {
@@ -214,10 +244,11 @@ nav p:hover {
 .main_program button {
   background-color: #ec5242;
   border-style: none;
-  padding: 1em;
+  padding: 1em 4em;
   color: whitesmoke;
-  margin: 2em 30%;
   font-size: 1em;
+  margin-bottom: 1.5em;
+  margin-left: 16%;
 }
 
 /* Speaker Section */
@@ -290,7 +321,7 @@ nav p:hover {
 .main_heading_about h1 {
   font-family: 'Secular One', sans-serif;
   color: #fc3f28;
-  padding: 0 1em;
+  padding: 2em 1em;
 }
 
 .main_text_about h2,
@@ -321,7 +352,7 @@ nav p:hover {
 .main_email {
   font-style: bold;
   color: gray;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   font-family: 'Secular One', sans-serif;
 }
 
@@ -430,10 +461,38 @@ footer {
   margin-top: -0.7em;
 }
 
-/* Desktop View Home */
+@media only screen and (max-width: 768px) {
+  /* Removing Speakers in mobile view */
+  .guy_2,
+  .guy_3,
+  .guy_4,
+  .guy_5 {
+    display: none;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   /* Home Desktop View */
+
+  .nav2 ul {
+    display: flex;
+    justify-content: end;
+    background-color: #272a31;
+    list-style: none;
+    color: gray;
+    padding-right: 5.9em;
+    height: 2em;
+    align-items: center;
+    margin: 0;
+  }
+
+  .nav_ul li {
+    margin-right: 1em;
+  }
+
+  .nav2 ul li {
+    padding-right: 1em;
+  }
 
   nav {
     display: block;
@@ -446,7 +505,7 @@ footer {
     width: 75%;
     margin-left: 4em;
     cursor: pointer;
-    margin-top: -0.2em;
+    margin-top: -0.5em;
   }
 
   .hamburguer {
@@ -457,10 +516,6 @@ footer {
     display: flex;
     font-size: 0.8em;
     margin: auto;
-  }
-
-  .nav_ul li {
-    margin-right: 1em;
   }
 
   .nav_ul li:hover {
@@ -481,6 +536,7 @@ footer {
   .main_heading {
     padding-left: 3em;
     padding-bottom: 2em;
+    background-image: url("./Assets/mobile_intro_bg.png");
   }
 
   .main_text h2 {
@@ -492,6 +548,8 @@ footer {
     font-size: 5em;
     margin-bottom: 0;
     padding-bottom: 0;
+    margin-top: 0.1em;
+    margin-left: 0.3em;
   }
 
   .main_description {
@@ -564,27 +622,27 @@ footer {
       "guythree ladythree";
   }
 
-  .guy_1 {
+  .guy_0 {
     grid-area: guyone;
   }
 
-  .guy_2 {
+  .guy_1 {
     grid-area: guytwo;
   }
 
-  .guy_3 {
+  .guy_2 {
     grid-area: guythree;
   }
 
-  .lady_1 {
+  .guy_3 {
     grid-area: ladyone;
   }
 
-  .lady_2 {
+  .guy_4 {
     grid-area: ladytwo;
   }
 
-  .lady_3 {
+  .guy_5 {
     grid-area: ladythree;
   }
 
@@ -648,6 +706,10 @@ footer {
   }
 
   /* About Desktop View */
+
+  .main_heading_about {
+    background-image: url("./Assets/about_bg_01.png");
+  }
 
   .main_text_about h1 {
     margin: auto;
