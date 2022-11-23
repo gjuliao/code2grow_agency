@@ -253,7 +253,6 @@ nav p:hover {
   font-style: italic;
 }
 
-
 .speaker_details {
   width: 70%;
 }
@@ -274,10 +273,6 @@ nav p:hover {
 .fa-angle-down {
   color: orange;
   font-size: 1em !important;
-}
-
-.speakers button {
-  margin-top: -50em;
 }
 
 .click_experience {
