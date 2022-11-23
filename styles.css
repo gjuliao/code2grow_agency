@@ -36,6 +36,7 @@ header {
 .link_about a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 nav p {
@@ -95,21 +96,20 @@ nav p:hover {
 
 #overlay {
   display: none;
-  margin-top: -3em;
-  margin-left: 2em;
   padding-bottom: 1em;
-}
-
-#overlay p {
-  margin-left: 80%;
-}
-
-#overlay p:hover {
-  color: #fc3f28;
-}
-
-.nav_ul {
-  list-style-type: none;
+  animation-duration: 4s;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  z-index: 2;
+  opacity: 99%;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
 }
 
 .nav_ul li {
@@ -124,10 +124,32 @@ nav p:hover {
   font-weight: 700;
 }
 
+#overlay li {
+  color: white;
+}
+
+#overlay li:hover {
+  color: #fc3f28;
+}
+
+#overlay p {
+  margin-left: 80%;
+  cursor: pointer;
+}
+
+#overlay p:hover {
+  color: #fc3f28;
+}
+
+.nav_ul {
+  list-style-type: none;
+}
+
 /* Home Page */
 .main_heading {
   padding-top: 2em;
   margin-bottom: 3em;
+  background-image: url("./Assets/main_big.png");
 }
 
 .main_heading h1 {
@@ -174,8 +196,10 @@ nav p:hover {
 
 /* Program Section */
 .main_program {
-  background-color: black;
+  background-color: #272a31;
   margin-top: -3em;
+  background-image: url(./Assets/pattern_bg.png);
+  background-size: 8%;
 }
 
 .main_program h3 {
@@ -213,10 +237,11 @@ nav p:hover {
 .main_program button {
   background-color: #ec5242;
   border-style: none;
-  padding: 1em;
+  padding: 1em 4em;
   color: whitesmoke;
-  margin: 2em 30%;
   font-size: 1em;
+  margin-bottom: 1.5em;
+  margin-left: 16%;
 }
 
 /* Speaker Section */
@@ -284,12 +309,13 @@ nav p:hover {
 .main_heading_about {
   background-color: #f7f7f7;
   padding-top: 1em;
+  background-image: url("./Assets/about_bg_01.png");
 }
 
 .main_heading_about h1 {
   font-family: 'Secular One', sans-serif;
   color: #fc3f28;
-  padding: 0 1em;
+  padding: 2em 1em;
 }
 
 .main_text_about h2,
@@ -429,7 +455,15 @@ footer {
   margin-top: -0.7em;
 }
 
-/* Desktop View Home */
+@media only screen and (max-width: 768px) {
+  /* Removing Speakers in mobile view */
+  .guy_2,
+  .guy_3,
+  .guy_4,
+  .guy_5 {
+    display: none;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   /* Home Desktop View */
@@ -480,6 +514,7 @@ footer {
   .main_heading {
     padding-left: 3em;
     padding-bottom: 2em;
+    background-image: url("./Assets/mobile_intro_bg.png");
   }
 
   .main_text h2 {
@@ -492,6 +527,7 @@ footer {
     margin-bottom: 0;
     padding-bottom: 0;
     margin-top: 0.1em;
+    margin-left: 0.3em;
   }
 
   .main_description {
