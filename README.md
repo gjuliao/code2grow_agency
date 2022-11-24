@@ -13,6 +13,7 @@ To view the loom introductory video click here: [Live Introduction](https://www.
 - Html
 - CSS
 - Javascript
+- Github
 
 ## Installation
 

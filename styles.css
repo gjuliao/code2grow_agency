@@ -139,6 +139,8 @@ nav p:hover {
 #overlay p {
   margin-left: 80%;
   cursor: pointer;
+  font-size: 1.5em;
+  color:#fc3f28;
 }
 
 #overlay p:hover {
@@ -207,6 +209,7 @@ nav p:hover {
   margin-top: -3em;
   background-image: url(./Assets/pattern_bg.png);
   background-size: 8%;
+  opacity: 0.9;
 }
 
 .main_program h3 {
@@ -216,11 +219,18 @@ nav p:hover {
 }
 
 .card_main_program {
+  background-color: #272a31;
+  opacity: 1;
   display: grid;
   margin: 0.5em;
   padding: 0.5em;
   grid-template-columns: 1fr 1fr 2fr;
   grid-row: 1fr;
+}
+
+.card_main_program:hover {
+  border: 1px solid #272a31;
+  background-color: #393A43;
 }
 
 .card_main_program h4 {
@@ -248,7 +258,7 @@ nav p:hover {
   color: whitesmoke;
   font-size: 1em;
   margin-bottom: 1.5em;
-  margin-left: 16%;
+  margin-left: 17%;
 }
 
 /* Speaker Section */
@@ -480,18 +490,19 @@ footer {
     background-color: #272a31;
     list-style: none;
     color: gray;
-    padding-right: 5.9em;
+    padding-right: 18%;
     height: 2em;
     align-items: center;
     margin: 0;
   }
 
   .nav_ul li {
-    margin-right: 1em;
+    margin-right: 3.3%;
   }
 
   .nav2 ul li {
     padding-right: 1em;
+    color: white;
   }
 
   nav {
@@ -506,6 +517,7 @@ footer {
     margin-left: 4em;
     cursor: pointer;
     margin-top: -0.5em;
+    min-width: 12em;
   }
 
   .hamburguer {
@@ -515,7 +527,7 @@ footer {
   .nav_ul {
     display: flex;
     font-size: 0.8em;
-    margin: auto;
+    margin-left: 5%;
   }
 
   .nav_ul li:hover {
@@ -524,13 +536,16 @@ footer {
 
   .campaign {
     border: 0.3em solid #fc3f28;
-    padding: 0.2em;
     color: #fc3f28;
+    margin-left: 17%;
+    align-self: center;
+    padding: 0.5em;
   }
 
   .nav_link {
-    padding: 0.4em;
-    margin-top: 0.3em;
+    margin-top: 0.7em;
+    padding-right: 0;
+    margin-left: 17%;
   }
 
   .main_heading {
@@ -540,16 +555,17 @@ footer {
   }
 
   .main_text h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: 2em;
   }
 
   .main_text h1 {
-    font-size: 5em;
+    font-size: 6em;
     margin-bottom: 0;
     padding-bottom: 0;
     margin-top: 0.1em;
     margin-left: 0.3em;
+    width: 75%;
   }
 
   .main_description {
@@ -581,16 +597,26 @@ footer {
     margin: 0;
     padding: 0;
     width: 80%;
+    background-color: #272a31;
+    opacity: 1;
+    margin: 0.1em;
+  }
+
+  .card_main_program:hover {
+    border: 1px solid #272a31;
+    background-color: #393A43;
   }
 
   .card_main_program i {
     padding: 1em;
     font-size: 1em;
+    z-index: 3;
   }
 
   .card_main_program p {
     margin: auto;
     padding-top: 0.9em;
+    padding-bottom: 1em;
   }
 
   .main_program button {
