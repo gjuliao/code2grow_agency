@@ -623,11 +623,14 @@ footer {
   }
 
   .click_experience {
-    color: gray;
+    color: white;
     cursor: pointer;
     padding: 2em;
     text-decoration-line: underline;
-    margin: 0 30%;
+    margin: 0 40%;
+    display: block;
+    width: 30%;
+    font-size: 1.2em;
   }
 
   .click_experience a {
