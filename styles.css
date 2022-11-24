@@ -140,7 +140,7 @@ nav p:hover {
   margin-left: 80%;
   cursor: pointer;
   font-size: 1.5em;
-  color:#fc3f28;
+  color: #fc3f28;
 }
 
 #overlay p:hover {
@@ -230,7 +230,7 @@ nav p:hover {
 
 .card_main_program:hover {
   border: 1px solid #272a31;
-  background-color: #393A43;
+  background-color: #393a43;
 }
 
 .card_main_program h4 {
@@ -594,7 +594,6 @@ footer {
   .card_main_program {
     display: flex;
     flex-direction: column;
-    margin: 0;
     padding: 0;
     width: 80%;
     background-color: #272a31;
@@ -604,7 +603,7 @@ footer {
 
   .card_main_program:hover {
     border: 1px solid #272a31;
-    background-color: #393A43;
+    background-color: #393a43;
   }
 
   .card_main_program i {
