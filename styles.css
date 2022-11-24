@@ -718,16 +718,19 @@ footer {
   }
 
   footer {
-    margin: 1% 10%;
+    background-color: #272a31;
+    width: 100%;
+    margin-top: 2em;
   }
 
   .logo {
     margin-left: 20%;
   }
 
-  footer .text_footer {
+  footer .text_footer_about {
     width: 30%;
     margin: auto;
+    color: white;
   }
 
   /* About Desktop View */
@@ -774,8 +777,28 @@ footer {
     max-height: 10em;
   }
 
+  .partners {
+    display: none;
+  }
+
   .experience_template_one h2,
   .experience_template_two h2 {
     padding: 0;
+  }
+
+  .experience_template_one {
+    background-image: url("./Assets/capstone_image1.png");
+    width: 90%;
+    height: 100%;
+    margin: 0.5em 1em;
+    box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
+  }
+  
+  .experience_template_two {
+    background-image: url("./Assets/capstone_image2.png");
+    width: 90%;
+    height: 100%;
+    margin: 0.5em 1em;
+    box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
   }
 }
