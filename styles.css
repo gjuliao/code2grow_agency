@@ -419,7 +419,13 @@ nav p:hover {
   display: none;
 }
 
-.partners h6 {
+.partners_about {
+  background-color: #414245;
+  padding-bottom: 1.5em;
+}
+
+.partners h6,
+.partners_about h6 {
   text-align: center;
   font-size: 2em;
   padding-top: 1em;
@@ -434,6 +440,14 @@ nav p:hover {
   margin: auto;
   width: 90%;
   color: gray;
+}
+
+.partners_icons_about {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
 }
 
 .partners_icons2 {
@@ -721,7 +735,7 @@ footer {
     display: none;
   }
 
-  .partners {
+  .partners_about {
     display: none;
   }
 
@@ -732,7 +746,7 @@ footer {
   }
 
   footer {
-    background-color: #272a31;
+    background-color: #f2f2f2;
     width: 100%;
     margin-top: 2em;
   }
