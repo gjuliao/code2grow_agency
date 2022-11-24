@@ -708,7 +708,7 @@ footer {
   }
 
   .partners {
-    display: block;
+    display: none;
   }
 
   .partners_icons,
@@ -771,29 +771,30 @@ footer {
     margin-top: 2em;
   }
 
+  .experience {
+    margin-bottom: 5em;
+  }
+
   .experience_images {
     display: flex;
     margin: 0 20%;
     max-height: 10em;
   }
 
-  .partners {
-    display: none;
-  }
-
   .experience_template_one h2,
   .experience_template_two h2 {
     padding: 0;
+    margin: 2em;
   }
 
   .experience_template_one {
     background-image: url("./Assets/capstone_image1.png");
-    width: 90%;
+    width: 100%;
     height: 100%;
     margin: 0.5em 1em;
     box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
   }
-  
+
   .experience_template_two {
     background-image: url("./Assets/capstone_image2.png");
     width: 90%;
