@@ -93,6 +93,16 @@ nav p {
   padding-top: 1em;
 }
 
+.text_footer p {
+  padding-right: 1em;
+  font-size: 0.3em;
+}
+
+.text_footer_about p {
+  padding-right: 3em;
+  font-size: 5em;
+}
+
 nav p:hover {
   color: darkslategray;
   font-weight: 700;
@@ -208,7 +218,7 @@ nav p:hover {
   background-color: #272a31;
   margin-top: -3em;
   background-image: url(./Assets/pattern_bg.png);
-  background-size: 8%;
+  background-size: 2%;
   opacity: 0.9;
 }
 
@@ -219,11 +229,12 @@ nav p:hover {
 }
 
 .card_main_program {
-  background-color: #272a31;
+  background-color: rgb(0, 0, 0, 0.5);
   opacity: 1;
   display: grid;
-  margin: 0.5em;
-  padding: 0.5em;
+  margin: auto;
+  margin-bottom: 0.5em;
+  width: 85%;
   grid-template-columns: 1fr 1fr 2fr;
   grid-row: 1fr;
 }
@@ -259,6 +270,7 @@ nav p:hover {
   font-size: 1em;
   margin-bottom: 1.5em;
   margin-left: 17%;
+  margin-top: 1em;
 }
 
 /* Speaker Section */
@@ -270,7 +282,8 @@ nav p:hover {
 
 .speakers h3 {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 0.2em;
 }
 
 .card_speaker {
@@ -422,6 +435,7 @@ nav p:hover {
 .partners_about {
   background-color: #414245;
   padding-bottom: 1.5em;
+  margin-top: -2em;
 }
 
 .partners h6,
@@ -445,9 +459,16 @@ nav p:hover {
 .partners_icons_about {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
-  justify-content: center;
+  width: 70%;
   margin: auto;
+  padding-top: 2em;
+  justify-content: space-evenly;
+}
+
+.partners_icons_about i {
+  font-size: 4em;
+  padding-bottom: 0.5em;
+  color: whitesmoke;
 }
 
 .partners_icons2 {
@@ -471,19 +492,24 @@ footer {
 .logo img {
   width: 80%;
   margin: auto 5%;
+  padding-top: 0.5em;
 }
 
 .text_footer {
   align-items: center;
   margin-top: 0.8em;
   color: gray;
-  font-size: 0.6em;
   width: 60%;
 }
 
 .footer_about {
   background-color: #272a31;
-  font-size: 0.2em;
+  font-size: 0.1em;
+  padding: 4em 0;
+}
+
+.footer_about .logo {
+  width: 60%;
 }
 
 .rights {
@@ -621,7 +647,7 @@ footer {
     flex-direction: column;
     padding: 0;
     width: 80%;
-    background-color: #272a31;
+    background-color: rgb(0, 0, 0, 0.5);
     opacity: 1;
     margin: 0.1em;
   }
@@ -735,6 +761,10 @@ footer {
     display: none;
   }
 
+  .partners {
+    display: block;
+  }
+
   .partners_about {
     display: none;
   }
@@ -748,11 +778,15 @@ footer {
   footer {
     background-color: #f2f2f2;
     width: 100%;
-    margin-top: 2em;
   }
 
   .logo {
     margin-left: 20%;
+  }
+
+  .text_footer {
+    padding-left: 10%;
+    margin-top: 2em;
   }
 
   footer .text_footer_about {
@@ -771,13 +805,18 @@ footer {
     margin: auto;
     width: 65%;
     font-size: 2em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
   }
 
   .main_description_about {
     width: 70%;
     margin: auto;
-    margin-top: 1em;
+    margin-top: 3em;
+  }
+
+  .main_text_about .main_email {
+    padding-bottom: 5em;
+    padding-top: 2em;
   }
 
   .complementary_description_main {
@@ -807,18 +846,26 @@ footer {
     display: flex;
     margin: 0 20%;
     max-height: 10em;
+    margin-bottom: 8em;
   }
 
   .experience_template_one h2,
   .experience_template_two h2 {
     padding: 0;
     margin: 2em;
+    font-size: 2em;
+  }
+
+  .experience_template_one p,
+  .experience_template_two p {
+    font-size: 1em;
+    margin-top: -2em;
   }
 
   .experience_template_one {
     background-image: url("./Assets/capstone_image1.png");
     width: 100%;
-    height: 100%;
+    height: 15em;
     margin: 0.5em 1em;
     box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
   }
@@ -826,7 +873,7 @@ footer {
   .experience_template_two {
     background-image: url("./Assets/capstone_image2.png");
     width: 90%;
-    height: 100%;
+    height: 15em;
     margin: 0.5em 1em;
     box-shadow: inset 0 0 0 1000px rgba(255, 1, 1, 0.58);
   }
