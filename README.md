@@ -1,6 +1,6 @@
 # Code2Grow Agency
 
-This project was built with the intention of being used for any company that wants to provide software development services.
+Webpage built with dynamic javascript and uses media queries for desktop and mobile version.  It also includes a mobile menu with 100% mobile screen size when is popped out. The subject of the site is about software development services.
 
 ## Demo
 
